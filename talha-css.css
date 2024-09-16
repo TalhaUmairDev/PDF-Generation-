@@ -1,0 +1,267 @@
+/* Form Styling Talha Code Here */
+
+/* Default Styles (for desktop and laptop devices) */
+
+.section-title {
+	background: #f9f9f9 !important;
+	font-weight: 900 !important;
+	padding: 12px 10px !important;
+	border: 2px solid #999999 !important;
+	margin: 30px 0px !important;
+	float: left !important;
+	width: 100% !important;
+	border-radius: 6px !important
+}
+
+.row {
+	width: 100% !important;
+	margin: 8px 0px !important;
+	display: inline-block !important;
+}
+
+.label-col {
+	width: 29% !important;
+	display: inline-block;
+	float: left;
+	margin-right: 10px !important;
+}
+
+.label-col label {
+	font-weight:700 !important;
+	line-height:10px !important;
+	font-size : 13px !important;
+}
+
+.label-col label span {
+	font-weight:700 !important;
+	line-height:10px !important;
+	font-size : 13px !important;
+	color: red !important;
+}
+
+.field-col {
+	width: 69% !important;
+	display: inline-block;
+	float: left;
+}
+
+.text-field,
+.email-field,
+.number-field,
+.comment-field,
+.date-field,
+.select-field {
+	width: 100% !important;
+	border-radius: 6px !important;
+	padding: 15px !important;
+	color: #000000 !important;
+	background: #f9f9f9 !important;
+}
+
+.radio-field .wpcf7-list-item {
+	margin:20px 0px !important;
+	line-height: 20px !important;
+}
+
+.col-01,
+.col-02,
+.col-03 {
+	width: 31% !important;
+	float: left !important;
+	margin-right: 8px !important;
+	display: inline-block !important;
+}
+
+.street {
+	width: 49% !important;
+	float: left !important;
+	margin-right: 8px !important;
+	display: inline-block !important;
+}
+
+.house {
+	width: 18% !important;
+	float: left !important;
+	margin-right: 8px !important;
+	display: inline-block !important;
+}
+
+/* Responsive Styles (for tablets and mobile devices) */
+@media (max-width: 768px) {
+	.label-col,
+	.field-col,
+	.col-01,
+	.col-02,
+	.col-03 {
+		width: 100% !important;
+		float: none !important;
+		margin-right: 0 !important;
+		display: block !important;
+		margin-bottom: 10px !important;
+	}
+
+	.row {
+		margin: 10px 0px !important;
+	}
+
+	.section-title {
+		margin: 20px 0px !important;
+		padding: 10px 8px !important;
+		font-size: 1.2em !important;
+	}
+}
+
+
+#download-pdf {
+	width: 45% !important;
+	float: left !important;
+	margin: 10px !important;
+	display: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+	
+}
+
+#download-pdf:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+#email-pdf {
+	width: 45% !important;
+	float: left !important;
+	margin: 10px !important;
+	display: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00579a;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#email-pdf:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Basic Button Styles */
+.sub-but {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover Effect */
+.sub-but:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Active State */
+.sub-but:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
+
+/* Disabled State */
+.sub-but:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Responsive Button (Full-width on small screens) */
+@media (max-width: 768px) {
+    .sub-but {
+        width: 100%;
+        padding: 14px;
+        font-size: 18px;
+    }
+	.et_pb_section_2 {
+		width : 95% !important;
+	}
+}
+
+ol {
+	list-style-position: outside !important;
+	margin-left:15px !important;
+}
+
+li {
+	margin: 5px 0px !important;
+}
+
+
+
+/*PDF CSS HERE START*/
+
+.main-outer {
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 0 auto !important;
+}
+
+.inner-contain {
+	width: 100% !important;
+  float: left !important;
+  display: block !important;
+	margin: 20px 0px !important
+}
+
+.left-are {
+    width: 50% !important;
+    float: left !important;
+    display: inline-block !important;
+}
+
+.right-are {
+    width: 50% !important;
+    float: left !important;
+    display: inline-block !important;
+}
+
+.col-bor {
+    border: 2px solid #000000 !important;
+    padding: 5px !important;
+	margin:20px 0px !important;
+}
+
+.pdf-text {
+	font-size: 12px !important;
+	color : #000000 !important;
+	line-height:16px;
+	letter-spacing: 0px !important;
+}
+
+.pdf-heading {
+	font-size: 20px !important;
+	font-weight: bolder !important;
+	width: 100% !important;
+	line-height: 22px !important;
+	color: #000000 !important;
+	word-spacing: -2px !important;
+	margin-bottom: 20px !important;
+}
